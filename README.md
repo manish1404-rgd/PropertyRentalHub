@@ -1,36 +1,176 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏠 Property Rental Hub
 
-## Getting Started
+A modern full-stack property rental platform built with **Next.js 14**, **React**, **MongoDB**, and **NextAuth**. Users can browse rental properties, search listings, authenticate securely, manage their own properties, bookmark favorites, and communicate with property owners.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🔐 User Authentication using NextAuth
+- 🏡 Browse available rental properties
+- 🔍 Search properties by keywords
+- ❤️ Bookmark favorite properties
+- 📝 Add, Edit, and Delete property listings
+- 📩 Contact property owners through messaging
+- 🖼️ Upload property images using Cloudinary
+- 🗺️ Interactive Maps using Mapbox
+- 📱 Fully Responsive UI
+- ⚡ Built with Next.js App Router
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js 14
+- React.js
+- Tailwind CSS
+- React Icons
+- React Toastify
+
+### Backend
+- Next.js API Routes
+- MongoDB
+- Mongoose
+
+### Authentication
+- NextAuth.js
+
+### Cloud Services
+- Cloudinary
+- Mapbox
+
+---
+
+## 📂 Project Structure
+
+```
+propertyRentalHub/
+│
+├── app/
+│   ├── api/
+│   ├── profile/
+│   ├── properties/
+│   ├── messages/
+│   └── page.jsx
+│
+├── components/
+├── context/
+├── models/
+├── config/
+├── assets/
+├── public/
+├── utils/
+├── middleware.js
+└── package.json
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/propertyRentalHub.git
+```
+
+### Navigate to the project
+
+```bash
+cd propertyRentalHub
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Configure Environment Variables
+
+Create a `.env.local` file in the root directory and add:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your_secret_key
+
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+
+NEXT_PUBLIC_MAPBOX_TOKEN=your_mapbox_token
+```
+
+---
+
+## ▶️ Run the Application
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## 📸 Main Functionalities
 
-To learn more about Next.js, take a look at the following resources:
+- User Registration & Login
+- Property Listings
+- Property Details
+- Property Search
+- Add New Property
+- Edit/Delete Property
+- Bookmark Properties
+- Send Messages to Property Owners
+- User Dashboard
+- Responsive Design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📦 Dependencies
 
-## Deploy on Vercel
+- Next.js
+- React
+- MongoDB
+- Mongoose
+- NextAuth
+- Cloudinary
+- Mapbox GL
+- React Map GL
+- React Toastify
+- Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🎯 Future Improvements
+
+- Property Reviews & Ratings
+- Online Rent Payment
+- Email Notifications
+- Advanced Filters
+- Admin Dashboard
+- Real-Time Chat
+- Recommendation System
+
+---
+
+## 👨‍💻 Author
+
+**Manish Kumar Kuldeep**
+
+- GitHub: https://github.com/manish1404-rgd
+- 
+---
+
+## ⭐ If you found this project useful, give it a star on GitHub!
